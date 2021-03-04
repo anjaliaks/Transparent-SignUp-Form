@@ -1,0 +1,85 @@
+<html>
+<head>
+    <title>Sign Up</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://kit.fontawesome.com/f7a6f8989f.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <img src="ff.png">
+<form id="myForm" action="#">
+<div class="container">
+    <h1>Sign Up</h1>
+    <table cellspacing="2%" cellpadding="2%">
+        <tr class="bx">
+            <td>
+                <p> Name:</p>
+            </td>
+            <td>
+                    <input type="text" name="name" value="" placeholder="Enter Your Name">
+            </td>
+        </tr>
+        
+        <tr class="bx">
+            <td>
+                <p>Username:</p>
+            </td>
+            <td>
+                    <input type="text" name="username" value="" placeholder="Enter Your Username">
+            </td>
+        </tr>
+        <tr class="bx">
+            <td>
+                <p>DOB:</p>
+            </td>
+            <td>
+                    <input type="date" name="" value="" >
+            </td>
+        </tr>
+        <tr class="bx">
+            <td>
+                <p>Email:</p>
+            </td>  
+            <td>
+                    <input type="email" name="email" placeholder="Enter Your Emails">
+            </td>
+        </tr>
+        <tr class="bx">
+            <td>
+                <p>Password:</p>
+            </td>  
+            <td>
+                    <input type="password" placeholder="Enter Your Password">
+            </td>
+        </tr>
+        <tr class="bx">
+            <td>
+                <p>Confirm Password:</p>
+            </td>  
+            <td>
+                    <input type="password"placeholder="Enter Your Password Again">
+            </td>
+        </tr>
+    </table>
+
+    <div class="ck">
+        <p><input type="checkbox">&emsp;I agree to the Terms of Use</p>
+         
+    </div>
+    <div>
+    <button class="btn" onclick="myfun()" value="submit" >Submit </button>
+    </div>
+</div>
+</form>
+<script>
+    function myfun(){
+        document.getElementById("myform").submit();
+    }
+</script>
+
+
+</body>
+</html>

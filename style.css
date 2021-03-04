@@ -1,0 +1,101 @@
+*{
+  margin: 0; padding: 0;
+}
+
+img{
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+@media screen and(max-width: 1024px){
+	img{
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+.container{
+
+    position: absolute;
+     left: 40%;
+}
+
+.container h1{
+    width: 50%;
+    display: inline-block;
+    font-size: 35px;
+    border-bottom: 5px solid purple;
+    padding: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: lightyellow;
+}
+
+.bx{
+    width: 50%;
+    border-bottom: 1px solid purple;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    
+
+   
+}
+
+.bx p{
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+     font-weight: bolder;
+}
+
+.bx input{
+
+    background: none;
+    width: 90%;
+    padding: 10px 0;
+    margin: 11px 0;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: lightgoldenrodyellow;
+
+
+}
+
+
+.ck{
+    font-size: 25px;
+    color:  lightyellow;
+    font-weight: bolder;
+}
+
+.btn{
+    font-size: 15px;
+    font-weight: bold;
+    color: limegreen;
+    background: none;
+    cursor: pointer;
+    outline:none;
+    padding: 10px 21px;
+    margin: 12px 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn1{
+    font-size: 15px;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+    outline:none;
+    padding: 10px 21px;
+    margin: 12px 0;
+    border-radius: 10px;
+    color: red;
+    font-size: 20px;
+}
+
+
+
+
