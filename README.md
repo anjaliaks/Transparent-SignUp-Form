@@ -1,7 +1,7 @@
 # Transparent-SignUp-Form
 This is a simple transparent sign up form using HTML and CSS.
 
-# Tech stack Used-
+# Tech Stack Used-
 HTML &
 CSS
 
