@@ -2,7 +2,7 @@
 This is a simple transparent sign up form using HTML and CSS.
 
 # Tech stack Used-
-HTML
+HTML &
 CSS
 
 # Text Editor-
