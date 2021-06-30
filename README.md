@@ -8,5 +8,4 @@ CSS
 # Text Editor-
 Sublime Text <3
 
-# Check it out here-
-http://anjaliaks.github.io/Transparent-SignUp-Form/
+# Check it out <a href='http://anjaliaks.github.io/Transparent-SignUp-Form/' target='_blank'>here</a>
